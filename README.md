@@ -2,6 +2,8 @@
 
 An LLM pipeline that cuts a long episode into 9:16 clips with burned-in subtitles.
 
+History: this is a public snapshot of a private repository (50 commits, 19 May to 29 Sep 2026).
+
 It takes a full episode of a Russian TV series, picks the moments that work as Shorts, and renders them as 1080x1920 clips with word-timed subtitles. Tested on 10 episodes of one sitcom. It is built for one operator who runs a clip channel and wants to review the AI's picks, fix timings and subtitles, and export, instead of cutting by hand in an editor.
 
 ![Step 02: scenes picked by GPT-4o with timecodes and thumbnails; scene 02 has the per-scene subtitle editor open with 17 editable lines](docs/screenshots/scenes.webp)
