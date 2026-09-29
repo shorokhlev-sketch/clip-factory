@@ -6,7 +6,7 @@ It takes a full episode of a Russian TV series, picks the moments that work as S
 
 ![Step 02: scenes picked by GPT-4o with timecodes and thumbnails; scene 02 has the per-scene subtitle editor open with 17 editable lines](docs/screenshots/scenes.webp)
 
-**Live demo:** [factory.prfo.design](https://factory.prfo.design). It runs with `DEMO_MODE=1` and one sample session. Upload, punctuation, scene and subtitle edits and queue render return 403. Browsing, style previews, render, trim and banner work.
+**Live demo:** [factory.prfo.design](https://factory.prfo.design). It runs with `DEMO_MODE=1` and one sample session. Upload, punctuation, scene and subtitle edits, render, trim and banner return 403 there. Browsing the sample session and style previews work. Run it locally for the full pipeline.
 
 ## Key technical decisions
 
