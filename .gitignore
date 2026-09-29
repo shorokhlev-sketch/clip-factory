@@ -1,0 +1,49 @@
+# Generated videos and caches, gigabytes, not for the repo
+output/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Test / type caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# SQLite (in case a cache or session store uses it)
+*.sqlite
+*.sqlite-*
+*.db
+
+# OS files
+.DS_Store
+*.swp
+
+# Temp files
+*.tmp
+*.bak
+
+# Media (renders and sources live in output/ or outside the repo)
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.m4a
+
+# Local config with bot tokens, editor and Claude settings, logs
+publish.json
+.claude/
+.idea/
+.vscode/
+*.log
